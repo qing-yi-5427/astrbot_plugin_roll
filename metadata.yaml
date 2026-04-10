@@ -1,0 +1,6 @@
+name: astrbot_plugin_roll
+display_name: 随机选择插件
+desc: 一个简单的随机选择插件，帮助用户在多个选项中快速做出决定
+version: v1.0.0
+author: Developer
+astrbot_version: ">=4.16.0"
