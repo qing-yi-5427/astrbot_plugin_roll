@@ -35,7 +35,7 @@ class RollPlugin(Star):
         if cache_key in self._cache:
             cached_result, cached_time = self._cache[cache_key]
             if now - cached_time < CACHE_TTL:
-                yield event.chain_result([Comp.Plain(f"🎲 随机选择结果：{cached_result}")])
+                yield event.chain_result([Comp.Plain(f"🎲 随机选择结果：{cached_result}\n玄不救非，氪不改命，下次一定。")])
                 return
 
         if len(options) == 1 and '-' in options[0]:
